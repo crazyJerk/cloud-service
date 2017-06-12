@@ -18,6 +18,7 @@ public class UserController {
 
     @RequestMapping(value = "userInfo")
     public User userInfo(String userId) {
+
         return userService.getUserInfo(userId);
     }
 
